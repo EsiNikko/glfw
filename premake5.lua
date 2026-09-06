@@ -83,10 +83,10 @@ project "GLFW"
 		runtime "Debug"
 		symbols "on"
 
-	filter "configurations:Release"
+	filter "configurations:Development"
 		runtime "Release"
 		optimize "on"
 	
-	filter "configurations:Dist"
+	filter "configurations:Shipping"
 		runtime "Release"
 		optimize "on"
